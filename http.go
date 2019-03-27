@@ -13,6 +13,10 @@ const userAgent = "skrumble-go/" + Version
 // Base URL 
 var BaseURL = "https://api.skrumble.com"
 
+type Client struct {
+	// @TODO: implement new client struct here 
+}
+
 // @TODO: implement error logic & structure 
 type skrumbleError struct {
 	Code 		int	`json: "code"`

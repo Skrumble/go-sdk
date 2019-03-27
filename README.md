@@ -17,6 +17,88 @@ To install the GO client library
 $ go get https://github.com/Skrumble/go-sdk.git
 ```
 
+## Coverage
+
+### Roadmap
+
+- [ ] Teams
+  - [ ] Create team
+  - [ ] Update team info
+- [ ] Users
+  - [ ] Create user (add to team)
+  - [ ] Update user info
+  - [ ] Invite user
+  - [ ] Invite guest
+  - [ ] Get one
+  - [ ] Get all
+  - [ ] Check existing
+  - [ ] User login
+  - [ ] Guest login
+  - [ ] Deactivate user
+  - [ ] Register device for notification
+  - [ ] Deregister device for notification
+- [ ] Chat
+  - [ ] Create
+  - [ ] Get one
+  - [ ] Get all
+  - [ ] Update
+  - [ ] Delete
+  - [ ] Generate guest url
+  - [ ] Mark as read
+  - [ ] Add user to group
+  - [ ] Remove user from group
+  - [ ] Messages
+    - [ ] Send/recieve messages
+    - [ ] Send files
+    - [ ] Translate message
+    - [ ] Get unread
+  - [ ] Links
+    - [ ] Get links by chat
+    - [ ] Get links for user
+  - [ ] Files
+    - [ ] Get files by chat
+    - [ ] Get files for user
+    - [ ] Send file
+    - [ ] Get file info
+- [ ] Integrations
+  - [ ] Integration type support:
+    - [ ] Google
+    - [ ] Office365
+    - [ ] Exchange
+  - [ ] Create integration
+  - [ ] Update integration
+  - [ ] Delete integration
+  - [ ] Contacts
+    - [ ] Create contact
+    - [ ] Update contact
+    - [ ] Delete contact
+    - [ ] Get one
+    - [ ] Get all
+  - [ ] Events
+    - [ ] Add event
+    - [ ] Update event
+    - [ ] Delete event
+    - [ ] Get all
+    - [ ] Get one
+- [ ] Billing
+  - [ ] Add funds
+  - [ ] Get overview
+  - [ ] Get subscriptions
+  - [ ] Add billing address
+  - [ ] Get draft invoice PDF
+  - [ ] Get invoice PDF
+  - [ ] Credit Cards
+    - [ ] Add card
+    - [ ] Delete card
+    - [ ] Get all
+
+## Contributing
+
+To contribute to the library, docs, or examples, [create an issue][issues] or a pull request. Please only raise issues
+about features marked as working in the [API coverage](#coverage) as the rest of the code is being updated.
+
+## License
+
 MIT License
 
 Copyright (c) 2019 Skrumble Technologies Inc
