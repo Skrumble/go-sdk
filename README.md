@@ -1,3 +1,22 @@
+# Skrumble Client Library for GO
+
+This is the GO client library to use of Skrumble's API. To use this, you'll need a Skrumble Developer Account. Sign up for [an account at developers.skrumble.com](https://developer.skrumble.com). This is currently under active developer and will be released in alpha soon. See [Contributing](#contributing) for more information.
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Coverage](#coverage)
+- [Contributing](#contributing)
+
+## Installation
+
+To use the client library you'll need to have an account [created on Skrumble Developer](https://developers.skrumble.com)
+
+To install the GO client library
+
+```sh
+$ go get https://github.com/Skrumble/go-sdk.git
+```
+
 MIT License
 
 Copyright (c) 2019 Skrumble Technologies Inc
