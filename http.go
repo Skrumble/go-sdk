@@ -15,7 +15,7 @@ var BaseURL = "https://api.skrumble.com"
 
 // @TODO: implement error logic & structure 
 type skrumbleError struct {
-	Code 		int		`json: "code"`
+	Code 		int	`json: "code"`
 	Message 	string	`json:"message"`
 	MoreInfo 	string	`json:"more_info"`
 	Status 		int 	`json: "status"`
